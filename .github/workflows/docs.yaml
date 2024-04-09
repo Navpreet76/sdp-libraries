@@ -6,7 +6,7 @@ on:
 jobs:
   DeployDocs:
     runs-on: ubuntu-latest
-    if: github.repository == 'boozallen/sdp-libraries'
+    if: github.repository == 'Navpreet76/sdp-libraries'
     steps:
       - uses: actions/checkout@v2
         with: 
